@@ -1,3 +1,7 @@
 /objs
+
 /libft/*.o
+libft/libft.a
+libft/get_next_line/*.o
+
 /minishell
