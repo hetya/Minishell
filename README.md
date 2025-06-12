@@ -7,13 +7,13 @@ Minishell is a minimalistic recreation of a UNIX shell. It implements core featu
 
 - Prompt display and user input handling
 - Built-in commands:
-    - echo
-    - cd
-    - pwd
-    - export
-    - unset
-    - env
-    - exit
+    - `echo`
+    - `cd`
+    - `pwd`
+    - `export`
+    - `unset`
+    - `env`
+    - `exit`
 
 - Execution of external commands using `$PATH`
 - Pipes (`|`) to chain commands
