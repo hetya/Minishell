@@ -61,6 +61,7 @@ void	redirect_handler(char *handler, int sig)
 {
 	struct sigaction	psa;
 
+	memset(&psa, 0, sizeof(psa));
 	if (!ft_strcmp(handler, "IGN"))
 		psa.sa_handler = SIG_IGN;
 	else if (!ft_strcmp(handler, "FORK"))
